@@ -1,5 +1,5 @@
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -137,3 +137,11 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Honeypot logs
+logs/
+
+# Cowrie honeypot data
+cowrie/data/
+cowrie/var/
+cowrie/downloads/
